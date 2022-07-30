@@ -24,26 +24,26 @@
 
 ## About this project
 
-### Domain
+### 🔘 Domain
 
 This will contain all entities, enums, exceptions, interfaces, value objects, types and logic specific to the domain layer.
 
-### Application
+### 🧠 Application
 
-This layer contains all application logic. It is dependent on the domain layer, but has no dependencies on any other layer or project. This layer defines interfaces that are implemented by outside layers.
+This layer contains all application logic. It is dependent on the domain layer, but has no dependencies on any other layer or project.
 
-### Infrastructure
+### 🛠 Infrastructure
 
 This layer contains classes for accessing external resources such as file systems, web services, database, smtp, etc.
 
-### WebApi / UI
+### 🌐 WebApi / UI
 
-This layer is a public layer to serve a external client by webapi or serve a webview
+This layer is a public layer to serve a external client by webapi or serve a webview.
 
 ## Building scripts
 
 You'll need [dotnet-sdk](https://dotnet.microsoft.com/en-us/download) installed on your computer in order to build this app.
-
+S
 Recipe to create a clean arch based project
 
 ### 🔧 Create Folders Structure
@@ -87,7 +87,7 @@ Recipe to create a clean arch based project
 
 ## Usage
 
-use the builds script to generate the project or clone this repository and just use it.
+Use the build scripts to generate the project or clone this repository and just use it.
 
 🔧 Then Run the script
 
@@ -107,6 +107,10 @@ $ dotnet run --project src/webapi/webapi.csproj
 - [x] Create solution and add references projects;
 - [ ] Create scripts to create a test project;
 - [ ] Create scripts to add common thirdparty libraries;
+
+## Give a Star! ⭐
+
+If you like or are using this project to learn or start your solution, please give it a star.
 
 ## Autor
 
